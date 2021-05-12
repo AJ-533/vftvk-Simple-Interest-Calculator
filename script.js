@@ -9,7 +9,7 @@ function updateRate() {
 
 function compute() {
     var principal = document.querySelector("#principal").value;
-    if (principal < 0) {
+    if (principal <= 0) {
         window.alert("Enter positive principal");
         return document.getElementById("principal").focus();
     }
