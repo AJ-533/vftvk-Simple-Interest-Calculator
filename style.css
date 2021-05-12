@@ -8,7 +8,16 @@ div{
 }
 button{
     margin-left:41.5%;
+    border-radius: 10px;
 }
 p{
     margin-left: 36.5%;
+}
+
+#principal{
+    border-radius: 15px;
+}
+
+#yrs{
+    border-radius: 15px;
 }
